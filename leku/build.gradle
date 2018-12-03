@@ -70,7 +70,7 @@ dependencies {
   implementation "com.android.support:appcompat-v7:$supportVersion"
   implementation "com.android.support:design:$supportVersion"
 
-  def playServicesVersion = '15.0.1'
+  def playServicesVersion = '16.0.0'
   implementation ("com.google.android.gms:play-services-maps:$playServicesVersion") {
 	  exclude group: "com.android.support"
   }
